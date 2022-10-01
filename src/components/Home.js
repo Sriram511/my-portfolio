@@ -1,5 +1,5 @@
 import React from "react";
-import MyImage from "../assets/me.jpg";
+// import MyImage from "../assets/me.jpg";
 import * as RctIcons from "react-icons/cg";
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div>
-          <h2>I'm a FrontEnd React Developer</h2>
+          <h2>I'm a React Developer</h2>
 
           <p>
             Hi!, i am Familiar with ReactJS for building and designing UI's .
