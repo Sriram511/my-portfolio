@@ -1,6 +1,6 @@
 import React from "react";
 import FedevImage from "../assets/me.jpg";
-import * as FaIcons from "react-icons/fa";
+import * as AiIcons from "react-icons/ai";
 
 const Home = () => {
   return (
@@ -24,7 +24,7 @@ const Home = () => {
             <button className=" group text-white w-fit px-5 py-2 flex items-center rounded-md bg-gradient-to-r from-sky-900 to-cyan-900 cursor-pointer">
               Portfolio
               <span className="group-hover:rotate-90 duration-500">
-                <FaIcons.FaHandPointRight size={20} className="ml-2" />
+                <AiIcons.AiOutlineRight size={12} className="ml-1" />
               </span>
             </button>
           </div>
