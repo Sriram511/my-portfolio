@@ -21,7 +21,7 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
-          GITHUB <FaIcons.FaGithubSquare size={30} />
+          Github <FaIcons.FaGithubSquare size={30} />
         </>
       ),
       href: "https://github.com",
@@ -44,24 +44,35 @@ const SocialLinks = () => {
           Resume <FaIcons.FaWpforms size={30} />
         </>
       ),
-      href: "",
+      href: "/Lakshmi_Narasimhan_S.pdf",
       style: "rounded-br-md",
+      download: true,
     },
   ];
 
   return (
-    <div className="flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
-        <li className="flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-500 bg-sky-900">
-          <a
-            href="https://www.google.com"
-            className="flex justify-between items-center w-full text-white"
+        {links.map(({ id, child, href, style, download }) => (
+          <li
+            key={id}
+            className={
+              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-500 bg-sky-900" +
+              " " +
+              style
+            }
           >
-            <>
-              LinkedIn <FaIcons.FaLinkedin size={30} />
-            </>
-          </a>
-        </li>
+            <a
+              href={href}
+              className="flex justify-between items-center w-full text-white"
+              download={download}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {child}
+            </a>
+          </li>
+        ))}
       </ul>
     </div>
   );
