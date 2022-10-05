@@ -1,6 +1,5 @@
 import React from "react";
-import DevImage from "../assets/me.jpg";
-// import * as RctIcons from "react-icons/cg";
+import FedevImage from "../assets/me.jpg";
 import * as FaIcons from "react-icons/fa";
 
 const Home = () => {
@@ -18,7 +17,7 @@ const Home = () => {
           <p className="text-gray-500 py-4 max-w-md">
             Hi!, i am Familiar with ReactJS for building and designing the U I
             Currently, I love to work on web application using technologies like
-            React and Tailwind
+            React and Tailwind CSS.
           </p>
 
           <div>
@@ -32,9 +31,9 @@ const Home = () => {
         </div>
         <div>
           <img
-            src={DevImage}
-            alt="DeveloperProfile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            src={FedevImage}
+            alt="FrontEnd Developer"
+            className="mx-auto rounded-xl w-1/2 md:w-1/2"
           />
         </div>
       </div>
