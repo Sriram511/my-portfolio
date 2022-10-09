@@ -41,7 +41,7 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {projects.map(({ id, src }) => (
-            <div className="shadow-md shadow-gray-600 rounded-lg">
+            <div className="shadow-md shadow-gray-500 rounded-lg">
               <img
                 src={src}
                 alt="My Chat Application onGoing Project"
