@@ -12,6 +12,8 @@ import mongodb from "../assets/mongodb.png";
 import sql from "../assets/sql.png";
 import git from "../assets/git.png";
 import github from "../assets/github.png";
+import postman from "../assets/postman.png";
+import sass from "../assets/sass.png";
 
 const Experience = () => {
   const techTools = [
@@ -41,51 +43,63 @@ const Experience = () => {
     },
     {
       id: 5,
+      src: sass,
+      title: "SASS",
+      style: "shadow-pink-400",
+    },
+    {
+      id: 6,
       src: react,
       title: "REACT",
       style: "shadow-sky-400",
     },
     {
-      id: 6,
+      id: 7,
       src: redux,
       title: "REDUX",
       style: "shadow-purple-500",
     },
     {
-      id: 7,
+      id: 8,
       src: node,
       title: "NODEJS",
       style: "shadow-green-500",
     },
     {
-      id: 8,
+      id: 9,
       src: python,
       title: "PYTHON",
       style: "shadow-yellow-500",
     },
     {
-      id: 9,
+      id: 10,
       src: mongodb,
       title: "MONGODB",
       style: "shadow-green-500",
     },
     {
-      id: 10,
+      id: 11,
       src: sql,
       title: "SQL",
       style: "shadow-blue-500",
     },
     {
-      id: 11,
+      id: 12,
       src: git,
       title: "GIT",
       style: "shadow-red-500",
     },
     {
-      id: 12,
+      id: 13,
       src: github,
       title: "GITHUB",
       style: "shadow-gray-500",
+    },
+    {
+      id: 14,
+      src: postman,
+      title: "POSTMAN API-TOOL",
+      style: "shadow-orange-600",
     },
   ];
 
