@@ -1,27 +1,29 @@
 import React from "react";
-import chatApp from "../assets/portfolio/chatApp.png";
+// import chatApp from "../assets/portfolio/chatApp.png";
 import crudApp from "../assets/portfolio/crud.png";
 import weatherPY from "../assets/portfolio/weatherPY.png";
-import eCommerce from "../assets/portfolio/eCommerce.png";
+// import eCommerce from "../assets/portfolio/eCommerce.png";
 
 const Portfolio = () => {
   const projects = [
     {
       id: 1,
       src: crudApp,
+      title: "Student Management System",
     },
     {
       id: 2,
       src: weatherPY,
+      title: "Weather Application Python",
     },
-    {
-      id: 3,
-      src: chatApp,
-    },
-    {
-      id: 4,
-      src: eCommerce,
-    },
+    // {
+    //   id: 3,
+    //   src: chatApp,
+    // },
+    // {
+    //   id: 4,
+    //   src: eCommerce,
+    // },
   ];
 
   return (
@@ -40,7 +42,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {projects.map(({ id, src }) => (
+          {projects.map(({ id, src, title }) => (
             <div className="shadow-md shadow-gray-500 rounded-lg">
               <img
                 src={src}
@@ -49,9 +51,9 @@ const Portfolio = () => {
               />
               <div>
                 <button className="w-1/2 px-6 py-3 duration-200 hover:scale-105">
-                  Demo
+                  {title}
                 </button>
-                <button className="w-1/2 px-6 py-3 duration-200 hover:scale-105">
+                <button className="w-1/2 px-6 py-3 font-bold duration-200 hover:scale-105">
                   Code
                 </button>
               </div>
