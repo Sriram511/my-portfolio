@@ -4,7 +4,7 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import tailwind from "../assets/tailwindCss.png";
 import react from "../assets/react.png";
-import redux from "../assets/redux.png";
+// import redux from "../assets/redux.png";
 import node from "../assets/node.png";
 import python from "../assets/python.png";
 // import flask from "../assets/flask.png";
@@ -13,7 +13,7 @@ import sql from "../assets/sql.png";
 import git from "../assets/git.png";
 import github from "../assets/github.png";
 import postman from "../assets/postman.png";
-import sass from "../assets/sass.png";
+// import sass from "../assets/sass.png";
 
 const Experience = () => {
   const techTools = [
@@ -41,24 +41,24 @@ const Experience = () => {
       title: "TAILWIND",
       style: "shadow-sky-400",
     },
-    {
-      id: 5,
-      src: sass,
-      title: "SASS",
-      style: "shadow-pink-400",
-    },
+    // {
+    //   id: 5,
+    //   src: sass,
+    //   title: "SASS",
+    //   style: "shadow-pink-400",
+    // },
     {
       id: 6,
       src: react,
       title: "REACT",
       style: "shadow-sky-400",
     },
-    {
-      id: 7,
-      src: redux,
-      title: "REDUX",
-      style: "shadow-purple-500",
-    },
+    // {
+    //   id: 7,
+    //   src: redux,
+    //   title: "REDUX",
+    //   style: "shadow-purple-500",
+    // },
     {
       id: 8,
       src: node,
