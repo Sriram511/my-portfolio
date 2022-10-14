@@ -31,7 +31,7 @@ const Portfolio = () => {
             Portfolio
           </p>
           <p className="py-20">
-            Check out My Successfully Completed Projects & OnGoing Projects
+            Check out My Successfully Completed Projects & the OnGoing Projects
           </p>
         </div>
 

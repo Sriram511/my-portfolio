@@ -13,30 +13,30 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-24">
-          Hi! I completed my BCA graduation at Bharadhidasan University and am
-          currently pursuing an MCA degree at Anna University. These two majors
-          are only focused on Computer Applications and, except for College
-          Studies, completed a certification course in
+          Hi! I have completed my B.C.A graduation at Bharadhidasan University
+          and am currently pursuing M.C.A degree at Anna University. These two
+          majors are only focused on Computer Applications. Except for College
+          Studies, am completed certificate course in
           <b> Python with Data Science </b>
           and <b> Full Stack Development Course </b> that contains (HTML, CSS,
           JavaScript, NodeJS, ReactJS, SQL & MongoDB) ;
         </p>
         <br />
         <p className="text-xl">
-          I’m a code-addicted person and self-motivated also. I like to learn
-          new things every day and my passion is doing Photography I have an
-          Instagram profile for this also. If you have sometimes I pleasure to
-          visit my Instagram page{" "}
+          Am self-motivated and code-addicted too. I like to learn new things
+          every day and my passion is doing Photography I have an Instagram
+          profile for this also. If you have some free times. Please visit my
+          Instagram page{" "}
           <a
             href="https://www.instagram.com/bachelor_of_photographyy/"
             className="inline border-b-2 border-gray-500"
             target="_blank"
             rel="noreferrer"
           >
-            bachelor_of_photographyy
-          </a>
-          ; and my principle is simple "Whatever happens keep smiling : ) and
-          move on".....
+            bachelor_of_photographyy{"  "}
+          </a>{" "}
+          . My principle is simple "Whatever happen will happen - keep smiling :
+          ) and move on".....
         </p>
       </div>
     </div>

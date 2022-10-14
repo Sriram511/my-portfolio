@@ -12,8 +12,8 @@ const Contact = () => {
             Contact
           </p>
           <p className="py-8">
-            Let's do some conversation with Me? Drop your message in the form
-            placed below
+            Would like to have conversation with Me? Drop your message in the
+            form placed below
           </p>
         </div>
         <div className="flex justify-center items-center">
