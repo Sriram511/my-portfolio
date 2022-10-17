@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.e4dcc096.css",
+    "main.js": "/my-portfolio/static/js/main.b3e7447c.js",
+    "static/media/weatherPY.png": "/my-portfolio/static/media/weatherPY.66e024a98306b1384eff.png",
+    "static/media/react.png": "/my-portfolio/static/media/react.2f2532db663fd5ec5f95.png",
+    "static/media/postman.png": "/my-portfolio/static/media/postman.7fedeaff79947348538e.png",
+    "static/media/git.png": "/my-portfolio/static/media/git.8fa70958960c0b9085e8.png",
+    "static/media/html.png": "/my-portfolio/static/media/html.1d7b133e22ffe4829da6.png",
+    "static/media/javascript.png": "/my-portfolio/static/media/javascript.76536eb2b86398277df3.png",
+    "static/media/css.png": "/my-portfolio/static/media/css.9f33c557b92e4e2e1cc8.png",
+    "static/media/mongodb.png": "/my-portfolio/static/media/mongodb.c20e1bc7e958c8db307f.png",
+    "static/media/me.jpg": "/my-portfolio/static/media/me.b66e2f5f349725ed73bf.jpg",
+    "static/media/github.png": "/my-portfolio/static/media/github.69ffd9cd5a846c976177.png",
+    "static/media/node.png": "/my-portfolio/static/media/node.31c0e97d5776c294d370.png",
+    "static/media/crud.png": "/my-portfolio/static/media/crud.2fbf73bca6dbe99ede77.png",
+    "static/media/python.png": "/my-portfolio/static/media/python.f7f12e1bf59e577656a2.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.e4dcc096.css.map": "/my-portfolio/static/css/main.e4dcc096.css.map",
+    "main.b3e7447c.js.map": "/my-portfolio/static/js/main.b3e7447c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4dcc096.css",
+    "static/js/main.b3e7447c.js"
+  ]
+}
