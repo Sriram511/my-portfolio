@@ -16,7 +16,7 @@ const Home = () => {
           </h2>
 
           <p className="text-gray-500 py-4 max-w-md">
-            Hi!, i am Familiar with ReactJS for building and designing the U I
+            Hi!, T am Familiar with ReactJS for building and designing the U I
             Currently, I love to work on web application using technologies like
             React and Tailwind CSS.
           </p>
