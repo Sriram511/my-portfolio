@@ -6,7 +6,6 @@ import tailwind from "../assets/tailwindCss.png";
 import react from "../assets/react.png";
 import redux from "../assets/redux.png";
 import node from "../assets/node.png";
-import python from "../assets/python.png";
 import mongodb from "../assets/mongodb.png";
 import sql from "../assets/sql.png";
 import git from "../assets/git.png";
@@ -39,12 +38,6 @@ const Experience = () => {
       title: "TAILWIND",
       style: "shadow-sky-400",
     },
-    // {
-    //   id: 5,
-    //   src: sass,
-    //   title: "SASS",
-    //   style: "shadow-pink-400",
-    // },
     {
       id: 6,
       src: react,
@@ -63,12 +56,6 @@ const Experience = () => {
       title: "NODEJS",
       style: "shadow-green-500",
     },
-    // {
-    //   id: 9,
-    //   src: python,
-    //   title: "PYTHON",
-    //   style: "shadow-yellow-500",
-    // },
     {
       id: 10,
       src: mongodb,
